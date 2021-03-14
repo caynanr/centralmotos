@@ -1,0 +1,231 @@
+/*ESTILOS GLOBAIS*/
+@font-face {
+  font-family: Arial, Helvetica, sans-serif;
+  src: url(../fontes/Gobold-Bold.otf) format(otf);
+  src: url(../fontes/Gobold-Bold-Italic.otf) format(otf);
+  src: url(../fontes/Gobold-Regular.otf) format(otf);
+  src: url(../fontes/Gobold-Regular-Italic.otf) format(otf);
+  src: url(../fontes/Gobold-Thin.otf) format(otf);
+  src: url(../fontes/Gobold-Thin-Italic.otf) format(otf);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.btn {
+  padding: 10px 30px;
+  color: #fff;
+  font-family: Gobold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
+}
+.btn:hover {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8);
+}
+/*HEADER*/
+.header {
+  width: 100%;
+  padding: 13px 0px;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.header_menu ul li a {
+  font-family: "Gobold Regular";
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.header_menu ul li a:hover {
+  color: #ff3336;
+}
+.header_menu ul li a.menu-ativo {
+  color: #ff3336;
+}
+
+/*INTRODUÇÃO*/
+.introducao {
+  width: 100%;
+  height: 320px;
+  background: url(../img/bg-intro.jpg) no-repeat center;
+  background-size: cover;
+  margin-top: 76px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.introducao h1 {
+  color: #ff3336;
+  font-family: Gobold;
+  font-weight: Bold;
+  font-style: italic;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+.introducao h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #ff3336;
+  margin: 10px auto 10px auto;
+}
+
+.introducao p {
+  color: #ff3336;
+  font-family: Gobold Thin;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 65px;
+}
+
+/*SERVIÇOS*/
+.servicos div h2 {
+  color: #000;
+  font-family: Gobold;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.servicos h3 {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  background: url(../img/bg-revisao.jpg);
+  color: #fff;
+  font-family: Gobold;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 70px;
+}
+.servicos .oleo {
+  background: url(../img/bg-oleo.jpg);
+}
+.servicos .lavagem {
+  background: url(../img/bg-lavagem.jpg);
+}
+.servicos p {
+  width: 100%;
+  height: 120px;
+  font-family: Gobold Thin;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+/*GALERIA*/
+.galeria {
+  width: 100%;
+  background: #000;
+  padding: 20px 0;
+}
+
+.galeria img:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+/*QUEBRA CLIENTE SATISFEITO*/
+.cliente-satifeito {
+  width: 100%;
+  padding: 80px 0;
+  text-align: center;
+}
+.cliente-satifeito p {
+  font-family: "Gobold";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 48px;
+  text-transform: uppercase;
+  line-height: 50px;
+  letter-spacing: 0.1em;
+}
+
+/*FOOTER*/
+
+.footer {
+  background: #000;
+  width: 100%;
+  color: #fff;
+  padding: 20px 0px;
+}
+.footer h3 {
+  font-family: Gobold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+}
+
+.footer h3:after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  margin: 10px 0;
+}
+
+.footer-contatos ul li {
+  font-family: Gobold;
+  font-size: 18;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.footer-redes ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.copy {
+  background: #ff3336;
+  padding: 20px 0;
+}
+.copy p {
+  font-size: 14px;
+  line-height: 30px;
+  font-family: Gobold;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
