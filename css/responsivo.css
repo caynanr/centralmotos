@@ -1,5 +1,5 @@
 /*ESTILO PARA TABLET*/
-@media only screen and (min-width: 668px) and (max-width: 979px) {
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
   /*HOME HEADER*/
   .header {
     padding: 13px 50px;
@@ -53,7 +53,7 @@
 }
 
 /*ESTILO PARA SMARTPHONE*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 788px) {
   /*HEADER*/
   .header {
     position: relative;
@@ -133,4 +133,9 @@
     position: absolute;
     left: 15%;
   }
-}
+
+  .galeria {
+    width: 100%;
+    background: #000;
+    padding: 20px 20px 0px 100px;
+  }
