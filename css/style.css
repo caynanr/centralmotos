@@ -124,7 +124,7 @@ img {
   width: 100%;
   height: 200px;
   margin-top: 20px;
-  background: url(../img/bg-revisao.jpg);
+  background: url(../img/bg-revisao.jpg) no-repeat center;
   color: #fff;
   font-family: Gobold;
   font-weight: bold;
@@ -136,10 +136,10 @@ img {
   padding: 70px;
 }
 .servicos .oleo {
-  background: url(../img/bg-oleo.jpg);
+  background: url(../img/bg-oleo.jpg) no-repeat center;
 }
 .servicos .lavagem {
-  background: url(../img/bg-lavagem.jpg);
+  background: url(../img/bg-lavagem.jpg) no-repeat center;
 }
 .servicos p {
   width: 100%;
