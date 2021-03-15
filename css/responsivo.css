@@ -53,50 +53,60 @@
 }
 
 /*ESTILO PARA SMARTPHONE*/
-@media only screen and (max-width: 667px) {
+@media only screen and (max-width: 600px) {
   /*HEADER*/
   .header {
     position: relative;
+    align-items: center;
+    width: 100%;
   }
+
   .header img {
-    position: absolute;
-    float: right;
-    margin: auto;
+    position: relative;
+    left: 22%;
+
   }
 
-  .header_menu ul li {
-    display: inline-block;
-
-    margin-top: 15px;
+  .header nav {
+    position: relative;
   }
 
-  .header_menu ul li a {
-    font-family: "Gobold Regular";
-    color: #ffffff;
-    font-size: 14px;
-    letter-spacing: 0.1em;
-    line-height: 20px;
-    text-transform: uppercase;
+  .header ul li{
+    display:block;
+    text-align: center;
+    margin-left: 220px;
+    padding: 1%;
+  }
+
+  .header nav ul li a {
+    color: #fff;
+    border-radius: 20px;
+    border: 40px #fff;
   }
 
   /*INTRODUÇÃO*/
+
   .introducao {
+    position: relative;
     width: 100%;
-    height: 320px;
+    height: 300px;
     background: url(../img/bg-intro.jpg) no-repeat center;
     background-size: cover;
-    margin-top: 76px;
-    text-align: center;
-    padding-top: 80px;
+    margin-top: 0px;
+    text-align:center;
+    padding-top: 50px;
   }
 
   .introducao h1 {
+    position: absolute;
+    left: 12%;
     color: #ff3336;
     font-family: Gobold;
     font-weight: Bold;
     font-style: italic;
     font-size: 48px;
     text-transform: uppercase;
+    clear: both;
   }
 
   .introducao h1:after {
@@ -109,10 +119,18 @@
   }
 
   .introducao p {
+    position: absolute;
+    left: 15%;
+    top:90px;
     color: #ff3336;
     font-family: Gobold Thin;
     font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 65px;
+  }
+
+  .introducao a {
+    position: absolute;
+    left: 15%;
   }
 }
