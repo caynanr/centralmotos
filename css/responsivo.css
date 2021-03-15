@@ -1,11 +1,9 @@
 /*ESTILO PARA TABLET*/
-@media only screen and (min-width: 721px) and (max-width: 959px) {
+@media only screen and (min-width: 721px) and (max-width: 1000px) {
   /*HOME HEADER*/
   .header {
     display: none;
-    padding: 13px 50px;
   }
-
   /*SERVIÇOS*/
   .servicos h3 {
     width: 100%;
@@ -126,11 +124,15 @@
   /*FOOTER*/
 
 .footer {
+  display: block;
   background: #000;
   width: 100%;
   color: #fff;
   padding: 20px 0px;
   text-align: center;
+  font-size: 1rem;
+  line-height: 1rem;
+  text-transform: uppercase;
 }
 .footer h3 {
   margin-top: 20px;
@@ -148,7 +150,49 @@
   
 }
 
-.copy {
+.copy p{
+  width: 100%;
   text-align: center;
+  font-size: 0.7rem;
 }
+
+/*PÁGINA SOBRE*/
+
+.historia p{
+  margin: 0 auto;
+  font-size: .9rem;
+  width: 80%;
+}
+
+/*PÁGINA SERVIÇOS*/
+.introducao {
+  height: auto;
+}
+
+.introducao a{
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  margin-top: 5%;
+  width: 25%;
+}
+
+.introducao ul li {
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+
+/*PÁGINA CONTATOS*/
+.introducao {
+  background: url(../img/bg-contato.jpg) no-repeat center;
+  padding: 8%;
+}
+
+.dados_contato {
+  margin-top: 50px;
+  padding-left: 40px;
+}
+
 }
