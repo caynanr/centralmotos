@@ -71,13 +71,13 @@
   padding: 20px 10px;
 }
 
-div .colaborador-foto {
-  width: 100%;
-  height: 200px;
-  /*background: rgba(0, 0, 0, 0.8);*/
+.colaborador-foto {
   margin: 20px 0px;
 }
 
 .colaborador-foto img {
   margin: 0 auto;
+  border-radius: 100%;
+  width: 12rem;
+  height: 12rem;
 }

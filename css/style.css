@@ -209,6 +209,7 @@ img {
   font-size: 18;
   line-height: 25px;
   text-transform: uppercase;
+  color:#fff;
 }
 
 .footer-redes ul li {
@@ -228,4 +229,8 @@ img {
   font-style: italic;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+.copy a {
+  color: #000;
 }

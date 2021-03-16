@@ -142,6 +142,13 @@
 .footer h3:after {
   margin: 10px auto;
 }
+.footer-contatos {
+  width: auto;
+}
+.footer-contatos ul li {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
 
 .footer-redes ul li {
   display: inline-block;
@@ -153,7 +160,7 @@
 .copy p{
   width: 100%;
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 0.5rem;
 }
 
 /*PÁGINA SOBRE*/
@@ -166,15 +173,18 @@
 
 /*PÁGINA SERVIÇOS*/
 .introducao {
+  width: 100%;
   height: auto;
+  padding: 40px;
 }
 
-.introducao a{
+.btnservicos{
   margin: 0 auto;
   display: block;
   position: relative;
   margin-top: 5%;
-  width: 25%;
+  width: 30%;
+  text-align: center;
 }
 
 .introducao ul li {
@@ -186,8 +196,7 @@
 
 /*PÁGINA CONTATOS*/
 .introducao {
-  background: url(../img/bg-contato.jpg) no-repeat center;
-  padding: 8%;
+
 }
 
 .dados_contato {
