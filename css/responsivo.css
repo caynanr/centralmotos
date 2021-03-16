@@ -2,8 +2,23 @@
 @media only screen and (min-width: 721px) and (max-width: 1000px) {
   /*HOME HEADER*/
   .header {
-    display: none;
+    position: relative;
   }
+
+  .introducao {
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .galeria div {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .galeria  img{
+    margin-top: 10px;
+    width: 100%;
+  }
+
   /*SERVIÇOS*/
   .servicos h3 {
     width: 100%;
@@ -49,6 +64,27 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
   }
+
+  /*PÁGINA SOBRE*/
+
+  .colaboradores_id {
+margin-left: 8%;
+  }
+
+  /*PÁGINA SERVIÇOS*/
+
+.introducao ul li{
+  font-size: 1.5rem;
+  line-height: 3rem;
+  text-align: center;
+}
+
+/*Página Contato*/
+
+.contato_dados {
+margin-left: 5%;
+}
+
 }
 
 /*ESTILO PARA SMARTPHONE*/
@@ -80,7 +116,7 @@
   /*INTRODUÇÃO*/
 
   .introducao {
-    margin-top: 0px;;
+    margin-top: 0px;
   }
   
   /*SERVIÇOS*/
@@ -183,8 +219,9 @@
   display: block;
   position: relative;
   margin-top: 5%;
-  width: 30%;
+  width: 60%;
   text-align: center;
+  background: #ff3336;
 }
 
 .introducao ul li {
@@ -195,13 +232,13 @@
 }
 
 /*PÁGINA CONTATOS*/
-.introducao {
-
-}
-
 .dados_contato {
   margin-top: 50px;
   padding-left: 40px;
+}
+
+.btn_vermelho {
+width: 100%;
 }
 
 }
