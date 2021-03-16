@@ -229,6 +229,7 @@ img {
   font-style: italic;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .copy a {
