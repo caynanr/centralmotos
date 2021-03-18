@@ -107,6 +107,11 @@
 }
 
 .mapa {
-  padding: 20px;
+  padding: 21px;
   margin-bottom: 20px;
+}
+
+.mapa img {
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }

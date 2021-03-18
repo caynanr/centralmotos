@@ -2,13 +2,13 @@
 
 @font-face {
   font-family: "Gobold";
-  src: url(../fontes/Gobold-Bold.otf) format(OpenType);
+  src: url(../fontes/Gobold-Bold.woff) format("WOFF");
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Gobold Thin";
-  src: url(../fontes/Gobold-Thin.otf) format(OpenType);
+  src: url(../fontes/Gobold-Thin.woff) format("WOFF");
   font-weight: Thin;
 }
 
@@ -16,10 +16,12 @@ body {
   font-family: "Gobold", Arial, Helvetica, sans-serif;
 }
 p {
-  font-family: "Gobold", Arial, Helvetica, sans-serif;
+  font-family: "Gobold Thin", Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 20px;
+  text-transform: uppercase;
 }
+
 img {
   display: block;
   max-width: 100%;
@@ -159,6 +161,11 @@ img {
   width: 100%;
   background: #000;
   padding: 20px 0;
+}
+
+.galeria img {
+  border-radius: 13px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
 
 .galeria img:nth-child(2) {
